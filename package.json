@@ -40,6 +40,7 @@
     "@finsweet/eslint-config": "^2.0.6",
     "@finsweet/tsconfig": "^1.3.3",
     "@playwright/test": "^1.39.0",
+    "@types/jquery": "^3.5.29",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "cross-env": "^7.0.3",
@@ -52,7 +53,9 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@finsweet/ts-utils": "^0.40.0"
+    "@finsweet/ts-utils": "^0.40.0",
+    "gsap": "^3.12.4",
+    "jquery": "^3.7.1"
   },
   "engines": {
     "pnpm": ">=8"
